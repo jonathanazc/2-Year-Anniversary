@@ -1,0 +1,242 @@
+* {
+    float: left;
+    text-align: center;
+    margin-left: 8%;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+table {
+    width: 60%;
+    color: white;
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+tr {
+    color: red;
+    width: 100%;
+}
+
+th {
+    margin-left: 80px;
+}
+
+td {
+    color: white;
+    font-size: 25px;
+}
+
+.floor2 {
+    background-image: url(images/part2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 790px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.floor1 {
+    background-image: url(images/part1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 790px;
+    width: 1000px;
+    height: 1000px;
+}
+
+#firstlvl,
+#thirdlvl,
+#fifthlvl {
+    width: auto;
+    height: 300px;
+    background-color: transparent;
+    margin-top: 5%;
+    /*margin-left: 12%;*/
+}
+
+#firstlvl img,
+#thirdlvl img,
+#fifthlvl img {
+    height: 290px;
+    width: 150px;
+    margin-left: 15%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#firstlvl .Box1,
+#thirdlvl .Box1,
+#fifthlvl .Box1 {
+    float: left;
+    width: 45%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.726);
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    margin-left: 3%;
+    border-radius: 15px;
+}
+
+#firstlvl h2,
+#thirdlvl h2,
+#fifthlvl h2 {
+    font-size: 15px;
+    color: black;
+    background: transparent;
+    width: 100%;
+    margin-left: 0;
+}
+
+#firstlvl p,
+#thirdlvl p,
+#fifthlvl p {
+    font-size: 11px;
+    background: transparent;
+    width: auto;
+    line-height: 15px;
+}
+
+#secondlvl,
+#fourthlvl {
+    width: 700px;
+    height: 300px;
+    background-color: transparent;
+    margin-top: 0%;
+    margin-left: 12%;
+}
+
+#secondlvl img,
+#fourthlvl img {
+    height: auto;
+    width: 150px;
+    margin-right: 80px;
+    margin-top: 15px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#secondlvl .Box2,
+#fourthlvl .Box2 {
+    float: right;
+    width: 45%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.726);
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    margin-left: 3%;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+#secondlvl h2,
+#fourthlvl h2 {
+    font-size: 15px;
+    color: black;
+    background: transparent;
+}
+
+#secondlvl p,
+#fourthlvl p {
+    font-size: 11px;
+    background: transparent;
+    width: auto;
+    line-height: 15px;
+}
+
+#thirdlvl img {
+    height: auto;
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#fourthlvl {
+    margin-left: 17%;
+    margin-top: 8%;
+}
+
+#fourthlvl img {
+    width: auto;
+    height: 280px;
+}
+
+#fifthlvl {
+    margin-left: 17%;
+    width: 70%;
+    margin-top: 7%;
+}
+
+#fifthlvl img {
+    width: auto;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#fifthlvl .Box1 {
+    width: 50%;
+    margin-top: 5%;
+}
+
+#sixthlvl {
+    background: transparent;
+}
+
+#sixthlvl a {
+    background: transparent;
+}
+
+#sixthlvl button {
+    background-color: wheat;
+    margin-left: 65%;
+    width: 100%;
+    margin-top: 33%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#sixthlvl button:hover {
+    transform: translateY(4px);
+    background-color: wheat;
+}
+
+footer {
+    padding-top: 20px;
+    border-top: 2px solid white;
+    width: 66.5%;
+    float: left;
+    color: white;
+    font-size: 10px;
+}
+
+footer h1 {
+    width: 100%;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -50px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -50px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
